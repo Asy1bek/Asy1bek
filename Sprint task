@@ -1,1 +1,69 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+</head>
+<body>
+    <form>
+       <table cellpadding="10">
+        <tbody>
+            <tr>
+                <td>Тип булочки</td>
+                <td>
+                    <select>
+                        <option>Булочка для гамбургеров</option>
+                        <option>Булочка для чизбургеров</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Тип мясо</td>
+                <td>
+                    <select>
+                        <option>Говядина</option>
+                        <option>Курица</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Опции:</td>
+                <td>
+                    <input type="checkbox"> Помидор
+                    <input type="checkbox"> Соленные огурцы
+                </td>
+            </tr>
+            <tr>
+                <td>Адрес:</td>
+                <td>
+                    <input placeholder="Введите адрес">
+                </td>
+            </tr>
+            <tr>
+                <td>Ф.И.О заказчика</td>
+                <td>
+                    <input placeholder="Введите Ф.И.О">
+                </td>
+            </tr>
+            <tr>
+                <td>Желаемое время доставки</td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td>Выбор бургера:</td>
+                <td>
+                    <select>
+                    <option>Гамбургер</option>
+                    <option>Чизбургер</option>
+                </select>
+                </td>
+            </tr>
+        </tbody>
+       </table>
+       <button>Заказать</button>
+    </form>
+</body>
+</html>
